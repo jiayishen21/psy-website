@@ -2,12 +2,32 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>PsyWebsite</title>
   <base href="angular-hosting-demo">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-<link rel="stylesheet" href="styles.3ff695c00d717f2d2a11.css"></head>
-<body>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <title>PassionFruit Youth</title>
+  <link rel="icon" type="image/x-icon" href="assets/img/logo.png">
+<link rel="stylesheet" href="styles.06bc88bf0e54d77c6e9c.css"></head>
+<body class="background-seashell">
   <app-root></app-root>
-<script src="runtime.7b63b9fd40098a2e8207.js" defer></script><script src="polyfills.94daefd414b8355106ab.js" defer></script><script src="main.87c03b03ccc0cf919111.js" defer></script></body>
+  
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script>
+    //TODO: fix this up
+    function scrollToTop() {
+        (function smoothscroll() {
+            var currentScroll = document.documentElement.scrollTop || document.body.scrollTop;
+            if (currentScroll > 0) {
+                window.requestAnimationFrame(smoothscroll);
+                window.scrollTo(0, currentScroll - (currentScroll / 8));
+            }
+        });
+    }
+  </script>
+<script src="runtime.7b63b9fd40098a2e8207.js" defer></script><script src="polyfills.94daefd414b8355106ab.js" defer></script><script src="main.971a7a88996ab074667a.js" defer></script></body>
 </html>
