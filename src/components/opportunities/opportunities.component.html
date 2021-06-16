@@ -4,8 +4,10 @@
   
         <div *ngFor="let selectionCard of selectionCards" class="col-lg-6 col-xl-4">
           <div class="selection-card mt-4 mx-4 mb-6" style="background-image: url('assets/img/{{ selectionCard.imgName }}');">
-            <a href="{{ selectionCard.href }}" class="no-decor">
-              <div class="text-center py-10 py-lg-8"><span class="selection-text p-3">{{ selectionCard.text }}</span></div>
+            <a href="opportunities#{{ selectionCard.href }}" class="no-decor">
+              <div class="text-center py-10 py-lg-8">
+                <span class="selection-text p-3">{{ selectionCard.text }}</span>
+              </div>
             </a>
           </div>
         </div>

@@ -30,7 +30,7 @@ export class MeetTheTeamComponent implements OnInit {
       'Lucas Shen', 
       'lucas-shen.png',
       'Chief of Web Development',
-      'Hi, my name is Lucas. I enjoy playing League of Legends, watching anime, and winning anything. I joined PassionFruit Youth to develop better social as an ambassador but received a promotion to web developer. That is all I will say, if you want to know more, message @lucas.shen21 on instagram for a slim chance for you to learn more about me. Good day.'
+      'Hi, my name is Lucas. I enjoy playing League of Legends, watching anime, and winning anything. I joined PassionFruit Youth to develop better social skills as an ambassador but received a promotion to web developer. That is all I will say, if you want to know more, message @lucas.shen21 on instagram for a slim chance for you to learn more about me. Good day.'
       ),
 
       new Profile(
@@ -95,7 +95,7 @@ export class MeetTheTeamComponent implements OnInit {
       'Bethany Cheung', 
       'bethany-cheung.png', 
       'Marketing & Design Coordinator', 
-      ''
+      'Hey! I&lsquo;m super excited to work with Passion Fruit&lsquo;s marketing team. I enjoy playing music, creating art, eating oreos and taking sporadic naps in my free time. I joined Passion Fruit to explore my creativity  and meet new people! My dms are open if you want to talk @bethany.cheung on instagram :)'
       ),
 
       new Profile(
