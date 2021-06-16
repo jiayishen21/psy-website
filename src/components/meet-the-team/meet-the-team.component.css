@@ -1,0 +1,104 @@
+.sub {
+  font-size: 1.5em;
+}
+
+.meet-the-team-title {
+  font-size: 3em;
+}
+
+.img-padding {
+  padding-left: 18vw;
+  padding-right: 18vw;
+}
+
+.profile-padding {
+  padding-left: 16vw;
+  padding-right: 16vw;
+}
+
+.name-caption {
+  font-size: 1.75em;
+}
+
+.position-caption {
+  font-size: 1.3em;
+}
+
+.profile-img {
+  width: 60vw;
+  height: 60vw;
+  object-fit: cover;
+  transition: ease-out 0.3s;
+}
+
+:hover.profile-img {
+  cursor: pointer;
+  filter: drop-shadow(0 0 5px #7c7c7c);
+}
+
+.img-background {
+  position: relative;
+}
+
+.blurb-container {
+  width: 80vw;
+}
+
+.blurb-text {
+  font-size: 1em;
+}
+
+.active-name {
+  font-size: 1.5em;
+  background-color: white;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  position: absolute;
+  bottom: 1vh;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.active-img {
+  width: 80vw;
+  height: 80vw;
+  object-fit: cover;
+  transition: ease-out 0.3s;
+}
+
+@media screen and (min-width: 992px) {
+  .active-img {
+    width: 50vw;
+    height: 50vw;
+  }
+
+  .meet-the-team-title {
+    font-size: 5em;
+  }
+
+  .sub {
+    font-size: 2em;
+  }
+
+  .profile-img {
+    width: 27vw;
+    height: 27vw;
+  }
+
+  .blurb-container {
+    width: 50vw;
+  }
+
+  .blurb-text {
+    font-size: 1.3em;
+  }
+
+  .active-name {
+    bottom: 4vh;
+    font-size: 3em;
+  }
+}
+
+.hidden {
+  visibility: hidden;
+}

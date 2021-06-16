@@ -1,0 +1,91 @@
+.title-highlight {
+    color: var(--light-salmon);
+    font-weight: bold;
+}
+
+.quotation {
+    max-width: 8vw;
+}
+
+.quote1 {
+    font-size: 8vw;
+}
+
+.quote2 {
+    font-size: 4vw;
+}
+
+.potter-child {
+    max-width: 85vw;
+    max-height: 78vw;
+}
+
+.community-description {
+    font-size: 3.5vw;
+}
+
+@media screen and (min-width: 992px) {
+    .quote1 {
+        font-size: 4vw !important;
+    }
+
+    .quotation {
+        max-width: 4vw !important;
+    }
+
+    .quote2 {
+        font-size: 3.5vw !important;
+    }
+
+    .community-description {
+        font-size: 20px;
+    }
+
+    .hiker-img {
+        max-width:  50vw !important;
+        max-height: 55vw !important;
+    }
+
+    .title-motivation {
+        font-size: 4em !important;
+    }
+}
+
+.title-motivation {
+    color: var(--white);
+    font-size: 2.8em;
+}
+
+.hiker-img {
+    max-width: 85vw;
+    max-height: 90vw;
+}
+
+.subtitle-pill {
+    display: inline;
+    color: var(--white);
+    border: 2px solid var(--white);
+    border-radius: 40px;
+}
+
+.artist-img {
+    display: none;
+}
+
+@media screen and (min-width: 1400px) {
+    .artist-img {
+        display: inline;
+    }
+}
+
+
+  
+.text-motivation {
+    color: #ECECEC;
+    overflow: visible;
+}
+
+.text-motivation-highlight {
+    color: var(--white);
+    font-style: italic;
+}

@@ -1,0 +1,23 @@
+.events-home-title {
+  font-size: 56px;
+}
+
+.event-title {
+  font-size: 36px;
+}
+
+.title-highlight {
+  color: var(--light-salmon);
+  font-weight: bold;
+}
+
+.event-img {
+  border-radius: 10px;
+  max-width: 90vw;
+  max-height: 68vw;
+}
+
+.event-home-img {
+  max-width: 90vw;
+  max-height: 75vw;
+}

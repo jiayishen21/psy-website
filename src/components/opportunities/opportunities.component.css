@@ -1,0 +1,46 @@
+.selection-card {
+    background-color: var(--seashell);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.no-decor {
+    text-decoration: none;
+}
+
+.selection-text {
+    border: none;
+    color: var(--white);
+    font-size: 48px;
+    box-shadow: inset 0 0 var(--jasmine);
+    transition: ease-out 0.3s;
+    outline: none;
+}
+
+:hover.selection-text {
+    color: var(--white);
+    text-decoration: none;
+    box-shadow: inset 0 -7px var(--jasmine);
+}
+
+.section-title {
+    color: var(--white);
+    font-size: 80px;
+}
+
+.card-button {
+    float:right;
+}
+
+.opportunity-card {
+    border-radius: 10px;
+    background-color: #FFE4DE;
+}
+
+.opportunity-img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}

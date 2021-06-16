@@ -1,0 +1,47 @@
+<div class="container-fluid">
+    <div class="px-3">
+      <div class="row mt-2">
+  
+        <div *ngFor="let selectionCard of selectionCards" class="col-lg-6 col-xl-4">
+          <div class="selection-card mt-4 mx-4 mb-6" style="background-image: url('assets/img/{{ selectionCard.imgName }}');">
+            <a href="{{ selectionCard.href }}" class="no-decor">
+              <div class="text-center py-10 py-lg-8"><span class="selection-text p-3">{{ selectionCard.text }}</span></div>
+            </a>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
+<div *ngFor="let section of sections">
+  <div class="container-fluid py-15" style="background-image: url('assets/img/{{ section.imgName }}');" id="{{ section.id }}">
+    <div class="text-center py-3">
+      <h2 class="section-title">{{ section.name }}</h2>
+    </div>
+  </div>
+
+  <h3 id="{{ section.id }}-none"></h3>
+  
+  <div class="row mx-10 my-10">
+    <div class="container text-center h2">
+      {{ this.displayEmpty(section.opportunities) }}
+    </div>
+    <div class="col-xl-6 px-5" *ngFor="let opportunity of section.opportunities">
+      <div class="card opportunity-card pb-3 my-5">
+          <img src="assets/img/Appleworker.jpg" alt="" class="card-img-top img-fluid opportunity-img">
+          <div class="card-block p-5">
+              <h3 class="card-title">{{ opportunity.name }}</h3>
+              <p class="lead">{{ opportunity.time }}</p>
+              <br>
+              <div class="card-button mr-5">
+                <a href="{{ opportunity.href }}" class="button-light-salmon px-5 py-3" target="_blank">28, oakhill Cres.</a>
+              </div>
+          </div>
+      </div>
+    </div>
+  </div>
+  
+</div>
+
+  

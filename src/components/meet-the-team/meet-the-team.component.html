@@ -1,0 +1,30 @@
+<div class="container-fluid profile-padding hidden " id="profile-container">
+    <div class="d-flex justify-content-center">
+        <div class="img-background">
+            <img src="" alt="profile-img" class="" id="active-image">
+            <p class="h1 active-name px-4 py-lg-2" id="active-name"></p>
+        </div>
+    </div>
+    <p class="h3 active-position text-center" id="active-position"></p>
+    <div class="d-flex justify-content-center">
+        <div class="blurb-container">
+            <p class="lead text-center blurb-text" id="active-blurb"></p>
+        </div>
+        
+    </div>
+</div>
+
+<div class="container mt-3 mt-lg-12 px-5 px-md-0">
+    <h2 class="meet-the-team-title">The Team</h2>
+    <p class="mx-5 lead sub">Meet our exceptionaly <span class="font-weight-normal">passionate</span> team of students</p>
+</div>
+
+<div class="container-fluid img-padding my-10">
+    <div class="row justify-content-center">
+        <div *ngFor="let profile of profiles" class="mx-5 mx-lg-0 mt-5 col-12 col-lg-6">
+            <img (click)="displayProfile(profile)" src="assets/img/profiles/{{ profile.imgName }}" alt="{{ profile.name}}" class="profile-img">
+            <p class="text-center lead name-caption mt-4">{{ profile.name }}</p>
+            <p class="text-center lead position-caption">{{ profile.position}}</p>
+        </div>
+    </div>
+</div>

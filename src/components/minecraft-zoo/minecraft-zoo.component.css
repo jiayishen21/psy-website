@@ -1,0 +1,25 @@
+.build-img {
+    border-radius: 10px;
+    max-width: 28vw;
+    max-height: 28vw;
+}
+
+.inline {
+    display: inline
+}
+
+.minecraft-photo {
+    max-width: 80vw;
+    max-height: 75vw;
+}
+
+@media screen and (max-width: 992px){
+    .event-title {
+        font-size: 2.5em !important;
+    }
+
+    .build-img {
+        max-width: 70vw !important;
+        max-height: 70vw !important;
+    }
+}

@@ -1,0 +1,19 @@
+.about-us-title {
+  font-size: 3em;
+}
+
+.group-photo {
+  max-width: 80%;
+  height: auto;
+}
+
+.img-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.px-6 {
+  padding-left: 6em;
+  padding-right: 6rem;
+}

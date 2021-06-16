@@ -1,0 +1,23 @@
+<div class="background-gray container-fluid py-18 py-lg-6 px-5 px-lg-0">
+    <div class="row mx-0">
+        <div class="mx-lg-20 px-0 px-lg-5 mb-7 mb-lg-0">
+            <h4 class="text-white">Contact Us</h4>
+            <p class="text-white lead pb-4">
+                contact@passionfruityouth.org<br>
+                647-999-9999
+            </p>
+    
+            <a *ngFor="let logo of logos" href="{{ logo.href }}" target="_blank" class="mr-4 footer-link">
+                <img src="{{ logo.imgName }}" alt="{{ logo.name }}" class="img-fluid logo-img">
+            </a>
+        </div>
+
+        <div class="float-right">
+            <h4 class="text-white">PassionFruit Youth</h4>
+            <a routerLink="{{ section.href }}" class="footer-link lead" *ngFor="let section of sections" onclick="scrollToTop();">
+                {{ section.name }}<br>
+            </a>
+        </div>
+    </div>
+    
+</div>

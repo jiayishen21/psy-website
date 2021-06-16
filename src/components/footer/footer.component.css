@@ -1,0 +1,23 @@
+.background-gray {
+    background-color: #A9A9A9;
+}
+
+.logo-img {
+    width: 32px;
+    height: 32px;
+}
+
+.footer-link {
+    color: var(--white);
+    transition: ease-out 0.3s;
+}
+
+:hover.footer-link {
+    text-decoration: none;
+    cursor: pointer;
+    filter: drop-shadow(0 0 10px #595959);
+}
+
+@media screen and (max-width: 992px) {
+    
+}
